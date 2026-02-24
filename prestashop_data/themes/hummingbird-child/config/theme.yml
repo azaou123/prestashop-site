@@ -1,0 +1,28 @@
+name: hummingbird-child
+display_name: Hummingbird Child
+version: 1.0.0
+
+author:
+  name: Badr AZAOU
+
+description: Hummingbird Child
+parent: hummingbird
+
+meta:
+  compatibility:
+    from: 9.0.0
+    to: ~
+  # Add this section below:
+  available_layouts:
+    layout-full-width:
+      name: Full width
+      description: No side columns, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three columns
+      description: One center column and two side columns.
+    layout-left-column:
+      name: Two columns, small left column
+      description: One large central column and one small left column.
+    layout-right-column:
+      name: Two columns, small right column
+      description: One large central column and one small right column.
